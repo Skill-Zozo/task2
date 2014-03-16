@@ -1,10 +1,11 @@
-set SOURCES = BinarySearchTreeTest.java BinarySearchTree.java
+SOURCES = BinarySearchTreeTest.java BinarySearchTree.java
+
 
 compile:
-	javac $(SOURCES)
+	javac -g $(SOURCES)
 	
 run:
-	java $(SOURCES)
+	java BinarySearchTreeTest
 
 clean:
 	rm *.class
